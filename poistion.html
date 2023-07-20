@@ -1,0 +1,153 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position cards </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <style>
+        .container{
+            height: 275px;
+            width: 250px;
+           border-radius: 5px;
+           background-color: whitesmoke;
+            display: inline-block;
+            position: relative;
+            top: 30px;
+        }
+        .container1{
+            height: 275px;
+            width: 250px;
+           border-radius: 5px;
+           background-color: whitesmoke;
+           
+           display: inline-block;
+           position: relative;
+           top: 30px;
+           
+           left:300px;
+            
+        }
+        .container2{
+            height: 275px;
+            width: 250px;
+           border-radius: 5px;
+           background-color: whitesmoke;
+           position: relative;
+           z-index: 500px;
+           right:230px;
+           display: inline-block;
+
+        }
+        .Basic{
+            background-color: green;
+            text-align: center;
+            color: white;
+            border-radius: 5px;
+            height:40px ;
+        }
+        .Basic1{
+            background-color:green;
+            text-align: center;
+            color: white;
+            border-radius: 5px;
+            height:40px ;
+        }
+        
+        .Basic2{
+            background-color: red;
+            text-align: center;
+            color: white;
+            border-radius: 5px;
+            height:40px ;
+        }
+
+         
+        .now{
+            background-color: green;
+            text-align: center;
+            color: white;
+            border-radius: 5px;
+            height: 30px;
+            width: 200px;
+            position: relative;
+            left: 20px;
+            bottom: 20px;        }
+        .ul{
+            list-style-type: none;
+        }
+        #true::before{
+            content:"✔️";
+            padding: 8px;
+            color: black;
+        }
+        #false::before{
+            content:" ❌";
+            padding: 8px;
+        }
+        #h2{
+          padding-left: 50px;
+        }
+     
+       
+      
+    </style>
+</head>
+<body>
+   <div class="container">
+         <div class="Basic">
+        <h2>Basic</h2>
+        </div>
+         <ul class="ul">
+        
+            <li id="true">Hosting</li>
+            <li id="false">Domain</li>
+            <li id="true">Free SSl</li>
+            <li id="false">1GB Space</li>
+            <li id="true">1 Website Host</li>
+            <h2 id="h2">$ 5</h2>
+     </ul>
+     <div class="now">
+        <h2>Buy Now </h2>
+        
+    </div>
+   </div> 
+    
+   <div class="container1">
+        <div class="Basic1">
+        <h2>Premium</h2>
+        </div>
+        <ul class="ul">
+        
+        <li id="true">Hosting</li>
+        <li id="true">Domain</li>
+        <li id="true">Free SSl</li>
+        <li id="true">1GB Space</li>
+        <li id="true">1 Website Host</li>
+        <h2 id="h2">$ 30</h2>
+        </ul>
+        <div class="now">
+            <h2>Buy Now </h2>
+        </div>
+    </div>
+
+        <div class="container2">
+            <div class="Basic2">
+
+                <h2>Standred</h2>
+            </div>
+            <ul class="ul">
+                
+                <li id="true">Hosting</li>
+                <li id="true">Domain</li>
+                <li id="false">Free SSl</li>
+                <li id="true">1GB Space</li>
+                <li id="true">1 Website Host</li>
+                <h2 id="h2">$ 10</h2>
+            </ul>
+            <div class="now">
+                <h2>Buy Now </h2>
+</body>
+</html>
